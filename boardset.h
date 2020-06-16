@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-typedef uint64_t board_t;
+#include "board.h"
 
 union boardset_node {
 	union boardset_node *b[2];
