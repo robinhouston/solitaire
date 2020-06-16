@@ -16,3 +16,8 @@ Assuming you have a standard Unix-like development environment, usage should be 
 or
 
     make seq && ./seq
+
+
+## Data structures
+
+A board position is represented by a 64-bit unsigned integer, of which only the least-significant 33 bits are used, corresponding to the 33 holes in the board. Sets of boards are represented by a simple binary tree with 33 levels, one for each bit.
