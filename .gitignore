@@ -1,3 +1,5 @@
 /soli
+/seq
+
 *.dSYM
 .DS_Store
