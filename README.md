@@ -1,6 +1,6 @@
 # Solitaire
 
-This repository contains some code to analyse reachable positions in Solitaire, played on the traditional cross-shaped English board with 33 holes.
+This repository contains some code to analyse reachable positions in Solitaire, played on the traditional cross-shaped English board with 33 holes, starting from the position where all but the central hole are filled.
 
 The reason I wrote this is to discover whether there are any reachable 17-peg positions that have a certain sort of symmetry. (Spoiler: there are not.) The `soli` program implements this search.
 
